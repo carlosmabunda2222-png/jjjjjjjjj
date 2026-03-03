@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poedagar 613 — Oferta Especial</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&family=Outfit:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#070707;
+  --card:#141414;
+  --white:#f5f5f5;
+  --muted:#888;
+  --green:#1fa36a;
+  --gold:#d4af37;
+  --wa:#25D366;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:var(--bg);
+  color:var(--white);
+  font-family:'Outfit',sans-serif;
+}
+.hero{
+  min-height:100vh;
+  padding:90px 20px 50px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+.badge{
+  background:rgba(31,163,106,.15);
+  border:1px solid rgba(31,163,106,.4);
+  padding:8px 18px;
+  border-radius:50px;
+  font-size:11px;
+  letter-spacing:2px;
+  margin-bottom:26px;
+  color:var(--green);
+}
+.hero img{
+  width:260px;
+  margin-bottom:28px;
+  filter:drop-shadow(0 20px 40px rgba(0,0,0,.8));
+}
+h1{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:64px;
+  letter-spacing:2px;
+  line-height:1;
+}
+h1 span{color:var(--green)}
+.sub{
+  max-width:480px;
+  font-size:16px;
+  color:var(--muted);
+  margin:18px auto 32px;
+}
+.price-box{
+  background:var(--card);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:18px;
+  padding:22px 32px;
+  display:flex;
+  gap:18px;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:28px;
+}
+.old{
+  text-decoration:line-through;
+  color:var(--muted);
+  font-size:18px;
+}
+.new{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:48px;
+  color:var(--gold);
+}
+.btn{
+  background:var(--wa);
+  color:white;
+  text-decoration:none;
+  padding:18px 36px;
+  border-radius:100px;
+  font-weight:600;
+  font-size:16px;
+  box-shadow:0 10px 30px rgba(37,211,102,.4);
+}
+.features{
+  max-width:900px;
+  margin:80px auto;
+  padding:0 20px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:16px;
+}
+.card{
+  background:var(--card);
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:16px;
+  padding:24px;
+  text-align:center;
+}
+.card span{
+  font-size:32px;
+  display:block;
+  margin-bottom:12px;
+}
+.card h3{
+  font-size:16px;
+  margin-bottom:8px;
+}
+.card p{
+  font-size:13px;
+  color:var(--muted);
+  line-height:1.6;
+}
+.footer{
+  text-align:center;
+  padding:40px 20px;
+  font-size:12px;
+  color:#444;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="badge">OFERTA LIMITADA · STOCK REDUZIDO</div>
+
+  <!-- IMAGEM DO PRODUTO -->
+  <img src="https://i.imgur.com/4Q9Z1Zm.png" alt="Poedagar 613">
+
+  <h1>POEDAGAR<br><span>613</span></h1>
+
+  <p class="sub">
+    Relógio elegante para quem gosta de presença, estilo e respeito.
+    Ideal para trabalho, eventos e uso diário.
+  </p>
+
+  <div class="price-box">
+    <div class="old">3.200 MZN</div>
+    <div class="new">2.900 MZN</div>
+  </div>
+
+  <!-- BOTÃO WHATSAPP -->
+  <a class="btn"
+     href="https://wa.me/258845344050?text=Olá!%20Quero%20comprar%20o%20Poedagar%20613%20pela%20oferta%20de%202.900%20MZN.%20Ainda%20está%20disponível?"
+     target="_blank">
+     Comprar pelo WhatsApp
+  </a>
+
+  <p style="margin-top:12px;color:#777;font-size:12px;">
+    ✔ Paga só quando receber · Entrega rápida
+  </p>
+</section>
+
+<section class="features">
+  <div class="card">
+    <span>⌚</span>
+    <h3>Design Premium</h3>
+    <p>Estilo moderno com acabamento metálico elegante.</p>
+  </div>
+  <div class="card">
+    <span>💧</span>
+    <h3>Resistente à Água</h3>
+    <p>Proteção para uso diário e respingos.</p>
+  </div>
+  <div class="card">
+    <span>🔋</span>
+    <h3>Bateria Durável</h3>
+    <p>Longa duração sem preocupações.</p>
+  </div>
+  <div class="card">
+    <span>🎁</span>
+    <h3>Ideal para Presente</h3>
+    <p>Visual luxuoso que impressiona à primeira vista.</p>
+  </div>
+</section>
+
+<div class="footer">
+  © 2026 · Venda via WhatsApp · Moçambique
+</div>
+
+</body>
+</html>
